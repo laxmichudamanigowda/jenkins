@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4DrQlMrIdbtiSCvOWZXOSX/XJxjJ2j2yf1Nhwn986EVTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4CG5rtMCaeTUlaCRWZubyGqpaaXmGFf1vHza7Jl116CpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZTUgpz8Sn0LAHYk+0/CAAAA[0m8
+originally caused by:
+ Started by upstream project "[8mha:////4Li2KjlxTIREMr8opJY5/kLo1HAgOF5B1BKhx8ZLJHabAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4KDzhFNPxe0t2Lhkq1YC9Nz6mIpewd1FAvvhZSJdMcHGAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfRMAKaqwXsEAAAA=[0m4
+ originally caused by:
+  Started by GitHub push by Apekshshn
+Running as SYSTEM
+Building remotely on [8mha:////4FnIMHBWYxerc99LDciWR3zrXOWFnqK0xZMaM87c44q/AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (label1) in workspace /home/ec2-user/workspace/testing
+[testing] $ /bin/sh -xe /tmp/jenkins12480907937883767256.sh
++ cd /home/ec2-user/workspace/testing
++ touch test
++ echo 'Test is completed'
+Test is completed
+Finished: SUCCESS

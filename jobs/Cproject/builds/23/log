@@ -1,0 +1,24 @@
+Started by GitHub push by Apekshshn
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Cproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Cproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Apekshshn/c-program.git # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 96b797cdfa74ad2fdbd65cd0c97ca8a4f3063939 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 96b797cdfa74ad2fdbd65cd0c97ca8a4f3063939 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 085a14f8042487ee10d67cc80fd0b1a850ccc502 # timeout=10
+[Cproject] $ /bin/sh -xe /tmp/jenkins8467720990449020196.sh
++ cd /var/lib/jenkins/workspace/Cproject
++ make ABC.exe
+gcc -c big3.c
+gcc -o ABC.exe main.o big3.o fact.o
+Finished: SUCCESS

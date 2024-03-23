@@ -1,0 +1,24 @@
+Started by GitHub push by Apekshshn
+Running as SYSTEM
+Building remotely on [8mha:////4E7Kvw1gVLZ8qVPPZBsk0E31QAP8EsbAN+bxYPB3N6L5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 (label1) in workspace /home/ubuntu/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/Build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Apekshshn/c-program.git # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 085a14f8042487ee10d67cc80fd0b1a850ccc502 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 085a14f8042487ee10d67cc80fd0b1a850ccc502 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 0a087ac824843b0aff4e32344cde20a620250483 # timeout=10
+[Build] $ /bin/sh -xe /tmp/jenkins7581423057548740632.sh
++ cd /home/ubuntu/workspace/Build
++ make ABC.exe
+make: 'ABC.exe' is up to date.
+Triggering a new build of [8mha:////4DrQlMrIdbtiSCvOWZXOSX/XJxjJ2j2yf1Nhwn986EVTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Finished: SUCCESS

@@ -1,0 +1,22 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Cproject
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Apekshshn/c-program.git
+ > git init /var/lib/jenkins/workspace/Cproject # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Apekshshn/c-program.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 71f07df2f2179c90335313d60f97b1c723929abb (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 71f07df2f2179c90335313d60f97b1c723929abb # timeout=10
+Commit message: "Update test"
+ > git rev-list --no-walk 71f07df2f2179c90335313d60f97b1c723929abb # timeout=10
+Finished: SUCCESS

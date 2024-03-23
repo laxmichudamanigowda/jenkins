@@ -1,0 +1,10 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building remotely on [8mha:////4E7Kvw1gVLZ8qVPPZBsk0E31QAP8EsbAN+bxYPB3N6L5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 (label1) in workspace /home/ubuntu/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins4512910145540545259.sh
++ cd /home/ubuntu/workspace/Build
++ sudo scp /home/ubuntu/workspace/Build/ABC.exe ec2-user@172.31.89.35:/home/ec2-user/deploy/
+Host key verification failed.
+lost connection
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

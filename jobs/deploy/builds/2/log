@@ -1,0 +1,9 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins2540664221842047808.sh
++ scp /home/ubuntu/workspace/Build/ABC.exe ec2-user@172.31.89.35:/home/ec2-user/deploy/
+Host key verification failed.
+Connection closed
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

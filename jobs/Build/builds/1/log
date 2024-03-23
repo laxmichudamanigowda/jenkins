@@ -1,0 +1,26 @@
+Started by GitHub push by Apekshshn
+Running as SYSTEM
+Building remotely on [8mha:////4E7Kvw1gVLZ8qVPPZBsk0E31QAP8EsbAN+bxYPB3N6L5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 (label1) in workspace /home/ubuntu/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Apekshshn/c-program.git
+ > git init /home/ubuntu/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Apekshshn/c-program.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a490c1c5664c9641a9acd788731e276d40cad570 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a490c1c5664c9641a9acd788731e276d40cad570 # timeout=10
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[Build] $ /bin/sh -xe /tmp/jenkins8231490753546242849.sh
++ /home/ubuntu/workspace/c-program/
+/tmp/jenkins8231490753546242849.sh: 2: /home/ubuntu/workspace/c-program/: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

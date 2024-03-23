@@ -1,0 +1,9 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building remotely on [8mha:////4FnIMHBWYxerc99LDciWR3zrXOWFnqK0xZMaM87c44q/AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (label1) in workspace /home/ec2-user/workspace/testing
+[testing] $ /bin/sh -xe /tmp/jenkins7188733935987852471.sh
++ cd /home/ec2-user/workspace/testing
++ touch test
++ echo 'Test is completed'
+Test is completed
+Finished: SUCCESS

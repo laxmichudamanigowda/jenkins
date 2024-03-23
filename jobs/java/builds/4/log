@@ -1,0 +1,26 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building remotely on [8mha:////4E7Kvw1gVLZ8qVPPZBsk0E31QAP8EsbAN+bxYPB3N6L5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ubuntu/workspace/java
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Apekshshn/Java-project.git
+ > git init /home/ubuntu/workspace/java # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/Java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/Java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Apekshshn/Java-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 307db0459367f55df9e8e2e96fb01fda681b2091 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 307db0459367f55df9e8e2e96fb01fda681b2091 # timeout=10
+Commit message: "Merge pull request #11 from jokimaki/timeout-scanning-annotations"
+ > git rev-list --no-walk 307db0459367f55df9e8e2e96fb01fda681b2091 # timeout=10
+[java] $ /bin/sh -xe /tmp/jenkins9706211625598505706.sh
++ cd /var/lib/jenkins/workspace/java
+/tmp/jenkins9706211625598505706.sh: 2: cd: can't cd to /var/lib/jenkins/workspace/java
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

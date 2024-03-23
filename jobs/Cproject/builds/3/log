@@ -1,0 +1,24 @@
+Started by user [8mha:////4KuJanlH0MNuhzOTFhaatN/U4bF5aZCepnpMHdrpcjovAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9xILU7OKMxHhDI2MAB6CqTsYAAAA=[0mApeksha H N
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Cproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Cproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Apekshshn/c-program.git # timeout=10
+Fetching upstream changes from https://github.com/Apekshshn/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/Apekshshn/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92048252ffe54286d2fd2440f29db03fd0419a2a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92048252ffe54286d2fd2440f29db03fd0419a2a # timeout=10
+Commit message: "added c program files"
+ > git rev-list --no-walk 92048252ffe54286d2fd2440f29db03fd0419a2a # timeout=10
+[Cproject] $ /bin/sh -xe /tmp/jenkins5911456693156762208.sh
++ cd /var/lib/jenkins/workspace/Cproject/
++ make ABC.exe
+/tmp/jenkins5911456693156762208.sh: line 3: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

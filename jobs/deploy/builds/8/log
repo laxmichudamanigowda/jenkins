@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4Li2KjlxTIREMr8opJY5/kLo1HAgOF5B1BKhx8ZLJHabAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4KDzhFNPxe0t2Lhkq1YC9Nz6mIpewd1FAvvhZSJdMcHGAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfRMAKaqwXsEAAAA=[0m4
+originally caused by:
+ Started by GitHub push by Apekshshn
+Running as SYSTEM
+Building remotely on [8mha:////4E7Kvw1gVLZ8qVPPZBsk0E31QAP8EsbAN+bxYPB3N6L5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 (label1) in workspace /home/ubuntu/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins7907441156569800408.sh
++ cd /home/ubuntu/workspace/Build
++ cp /home/ubuntu/workspace/Build/ABC.exe /home/ubuntu/workspace/deploy
+Triggering a new build of [8mha:////4E+J81otTzBQnB7o03LNpTWqLt587kVSboH+bHhSRAQWAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2S1OISoHZ9AFumAcXCAAAA[0mtesting
+Finished: SUCCESS
